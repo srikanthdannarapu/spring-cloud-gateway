@@ -13,6 +13,10 @@ This example project covers the usage of Spring Cloud Gateway along with Hystrix
 
 
 ##### Monitor hystrix
+
+![Hystrix -1](images/open-hystrix-stream.JPG)
+
+![Hystrix -2](images/hystrix-dashboard-joke-countries.JPG)
 ```````````````````````````````````````
 open hystrix dashboard
  http://localhost:8081/hystrix
@@ -20,9 +24,7 @@ open hystrix dashboard
 give this url to monitor stream
 http://localhost:8080/actuator/hystrix.stream
 ```````````````````````````````````````
-![Hystrix -1](images/open-hystrix-stream.JPG)
 
-![Hystrix -2](images/hystrix-dashboard-joke-countries.JPG)
 
 
 ## URLs
